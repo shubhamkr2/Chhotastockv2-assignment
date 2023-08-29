@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
+import Header from "../components/Header";
 
 function AfterLoginLandingPage() {
   return (
     <>
-      <header>
-        <img src='../assets/header.png' alt='header' />
-      </header>
+      <Header />
     </>
-  )
+  );
 }
 
-export default AfterLoginLandingPage
+export default AfterLoginLandingPage;

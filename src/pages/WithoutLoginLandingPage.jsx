@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Header from "../components/Header";
 
 function WithoutLoginLandingPage() {
   return (
-    <div>WithoutLoginLandingPage</div>
-  )
+    <>
+      <Header />
+    </>
+  );
 }
 
-export default WithoutLoginLandingPage
+export default WithoutLoginLandingPage;
