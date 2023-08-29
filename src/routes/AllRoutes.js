@@ -7,7 +7,7 @@ function AllRoutes() {
   return (
     <Routes>
         <Route path="/" element={<WithoutLoginLandingPage />} exact />
-        <Route path="/" element={<AfterLoginLandingPage />} exact />
+        <Route path="/home" element={<AfterLoginLandingPage />} exact />
     </Routes>
   )
 }
