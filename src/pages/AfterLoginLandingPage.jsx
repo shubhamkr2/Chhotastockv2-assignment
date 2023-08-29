@@ -2,7 +2,11 @@ import React from 'react'
 
 function AfterLoginLandingPage() {
   return (
-    <div>AfterLoginLandingPage</div>
+    <>
+      <header>
+        <img src='../assets/header.png' alt='header' />
+      </header>
+    </>
   )
 }
 
